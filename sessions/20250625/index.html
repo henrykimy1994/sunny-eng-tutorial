@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>20250625 - 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dark/Light Mode Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+    </button>
+
+    <div class="container">
+        <header>
+            <h1>20250625 - 1</h1>
+            <div class="fancy-underline"></div>
+        </header>
+
+        <main>
+            <div class="tabs card">
+                <input type="radio" id="tab1" name="tabs" class="tab-input" checked>
+                <input type="radio" id="tab2" name="tabs" class="tab-input">
+                <input type="radio" id="tab3" name="tabs" class="tab-input">
+                <input type="radio" id="tab4" name="tabs" class="tab-input">
+                <input type="radio" id="tab5" name="tabs" class="tab-input">
+                
+                <div class="tab-labels">
+                    <label for="tab1" class="tab-label">계약 체결</label>
+                    <label for="tab2" class="tab-label">프로젝트 설명</label>
+                    <label for="tab3" class="tab-label">위치 표현</label>
+                    <label for="tab4" class="tab-label">단위 표현</label>
+                    <label for="tab5" class="tab-label">현장 방문</label>
+                </div>
+                
+                <!-- Tab 1: 계약 체결 -->
+                <div class="tab-content tab-content-1" id="content1">
+                    <div class="language-comparison">
+                        <div class="language-card korean">
+                            <span class="language-label">원문</span>
+                            <div class="sentence">
+                                Today, I had a contract with a client for the project.
+                            </div>
+                        </div>
+                            
+                        <div class="arrow-container">
+                            <div class="arrow">→</div>
+                        </div>
+                            
+                        <div class="language-card english">
+                            <span class="language-label">수정</span>
+                            <div class="sentence">
+                                Today, I signed a contract to carry out the project with a client.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-text">Today, I had a contract with a client for the project.</div>
+                            <span class="step-arrow">→</span>
+                            <div class="step-text">Today, I signed a contract of the project with a client.</div>
+                        </div>
+                        <div class="step-note">'had a contract'보다는 'signed a contract'가 더 구체적이에요!</div>
+                        
+                        <div class="process-step">
+                            <div class="step-text">Today, I signed a contract of the project with a client.</div>
+                            <span class="step-arrow">→</span>
+                            <div class="step-text">Today, I signed a contract to carry out the project with a client.</div>
+                        </div>
+                        <div class="step-note">'carry out'을 사용하면 프로젝트를 실행한다는 의미가 더 명확해져요!</div>
+                    </div>
+
+                    <div class="explanation-section">
+                        <h2 class="section-title">핵심 포인트</h2>
+                        <div class="explanation-content">
+                            <p>
+                                계약과 관련된 비즈니스 영어 표현을 살펴보겠습니다.
+                            </p>
+                            
+                            <h3 class="explanation-title">1. 계약 동사: "<span class="highlight">sign a contract</span>"</h3>
+                            <p>
+                                계약을 체결할 때 사용하는 정확한 표현:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">sign a contract → 계약을 체결하다</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">enter into a contract → 계약을 맺다</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">finalize a contract → 계약을 확정하다</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 프로젝트 수행: "<span class="highlight">carry out</span>"</h3>
+                            <p>
+                                프로젝트를 실행한다는 의미를 나타내는 표현:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">carry out → 이끌어가다, 진행하다</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">execute → 실행하다</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">implement → 실행하다, 구현하다</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">계약 관련 예문:</div>
+                                <div class="example-item">
+                                    We <span class="key-phrase">signed a contract</span> to <span class="key-phrase">carry out</span> the construction project.
+                                    <br><span class="alternative">(우리는 건설 프로젝트를 진행하기 위한 계약을 체결했다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    The company <span class="key-phrase">entered into a contract</span> with a new supplier.
+                                    <br><span class="alternative">(회사는 새로운 공급업체와 계약을 맺었다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 2: 프로젝트 설명 -->
+                <div class="tab-content tab-content-2" id="content2">
+                    <div class="language-comparison">
+                        <div class="language-card korean">
+                            <span class="language-label">원문</span>
+                            <div class="sentence">
+                                I can explain the project. And that is the high-end resort project.
+                            </div>
+                        </div>
+                        
+                        <div class="arrow-container">
+                            <div class="arrow">→</div>
+                        </div>
+                        
+                        <div class="language-card english">
+                            <span class="language-label">수정</span>
+                            <div class="sentence">
+                                To explain the project, it is about building a high-end resort.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="explanation-section">
+                        <h2 class="section-title">프로젝트 설명하기</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. "To..." 구문으로 목적 표현</h3>
+                            <p>
+                                무언가를 설명하거나 목적을 나타낼 때 사용하는 자연스러운 표현:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">To explain → ~하자면</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">To solve → ~을 해결하기 위해</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">To clarify → ~을 명확히 하자면</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 프로젝트 설명 표현</h3>
+                            <p>
+                                프로젝트의 내용을 구체적으로 설명하는 방법:
+                            </p>
+                            <div class="language-comparison" style="margin-top: 20px;">
+                                <div class="language-card korean">
+                                    <span class="language-label">단순함</span>
+                                    <div class="sentence">
+                                        That is the high-end resort project.
+                                    </div>
+                                </div>
+                                    
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                    
+                                <div class="language-card english">
+                                    <span class="language-label">구체적</span>
+                                    <div class="sentence">
+                                        It is about building a high-end resort.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">설명 관련 예문:</div>
+                                <div class="example-item">
+                                    <span class="key-phrase">To explain the project</span>, it is about building a luxury resort.
+                                    <br><span class="alternative">(프로젝트를 설명하자면, 럭셔리 리조트 건설에 관한 것이다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">To solve the problem</span>, we need more resources.
+                                    <br><span class="alternative">(문제를 해결하기 위해, 더 많은 자원이 필요하다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 3: 위치 표현 -->
+                <div class="tab-content tab-content-3" id="content3">
+                    <div class="language-comparison">
+                        <div class="language-card korean">
+                            <span class="language-label">원문</span>
+                            <div class="sentence">
+                                The site of project is 양양.
+                            </div>
+                        </div>
+                        
+                        <div class="arrow-container">
+                            <div class="arrow">→</div>
+                        </div>
+                        
+                        <div class="language-card english">
+                            <span class="language-label">수정</span>
+                            <div class="sentence">
+                                The location of the project is in 양양.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="explanation-section">
+                        <h2 class="section-title">위치 표현하기</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. 위치 표현: "<span class="highlight">location</span>"</h3>
+                            <p>
+                                프로젝트 장소를 나타내는 적절한 단어 선택:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">location → 위치, 장소</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">site → 현장, 부지</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">venue → 장소 (행사용)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 전치사 사용</h3>
+                            <p>
+                                지역명과 함께 사용하는 전치사:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">in + 지역명 → ~에 위치한</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">at + 구체적 장소 → ~에서</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">위치 관련 예문:</div>
+                                <div class="example-item">
+                                    The <span class="key-phrase">location of the project</span> is <span class="key-phrase">in</span> 양양.
+                                    <br><span class="alternative">(프로젝트의 위치는 양양에 있다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    The construction <span class="key-phrase">site</span> is located <span class="key-phrase">in</span> Seoul.
+                                    <br><span class="alternative">(건설 현장은 서울에 위치해 있다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 4: 단위 표현 -->
+                <div class="tab-content tab-content-4" id="content4">
+                    <div class="language-comparison">
+                        <div class="language-card korean">
+                            <span class="language-label">원문</span>
+                            <div class="sentence">
+                                And the project have 96 units.
+                            </div>
+                        </div>
+                        
+                        <div class="arrow-container">
+                            <div class="arrow">→</div>
+                        </div>
+                        
+                        <div class="language-card english">
+                            <span class="language-label">수정</span>
+                            <div class="sentence">
+                                The resort consists of 96 units.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-text">And the project have 96 units.</div>
+                            <span class="step-arrow">→</span>
+                            <div class="step-text">There are 96 households for the resort.</div>
+                        </div>
+                        <div class="step-note">'There are' 구문을 사용할 수 있어요.</div>
+                        
+                        <div class="process-step">
+                            <div class="step-text">There are 96 households for the resort.</div>
+                            <span class="step-arrow">→</span>
+                            <div class="step-text">The resort has 96 units.</div>
+                        </div>
+                        <div class="step-note">단수 명사 + has가 더 자연스러워요!</div>
+                        
+                        <div class="process-step">
+                            <div class="step-text">The resort has 96 units.</div>
+                            <span class="step-arrow">→</span>
+                            <div class="step-text">The resort consists of 96 units.</div>
+                        </div>
+                        <div class="step-note">'consists of'를 사용하면 더 전문적이에요!</div>
+                    </div>
+
+                    <div class="explanation-section">
+                        <h2 class="section-title">단위와 구성 표현하기</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. 구성 표현 방법</h3>
+                            <p>
+                                건물이나 시설의 구성을 나타내는 다양한 표현:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">consists of → ~로 구성되다</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">has → ~을 가지고 있다</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">There are → ~이 있다</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 세대 단위 표현</h3>
+                            <p>
+                                주거 단위를 나타내는 용어들:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">units → 유닛, 세대</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">households → 가구, 세대</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">apartments → 아파트</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">구성 관련 예문:</div>
+                                <div class="example-item">
+                                    The resort <span class="key-phrase">consists of</span> 96 <span class="key-phrase">units</span>.
+                                    <br><span class="alternative">(리조트는 96개 유닛으로 구성되어 있다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    The building <span class="key-phrase">has</span> 50 <span class="key-phrase">apartments</span>.
+                                    <br><span class="alternative">(건물은 50개의 아파트가 있다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">There are</span> 96 <span class="key-phrase">households</span> in the complex.
+                                    <br><span class="alternative">(단지에는 96세대가 있다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                <!-- Tab 5: 현장 방문 -->
+                <div class="tab-content tab-content-5" id="content5">
+                    <div class="language-comparison">
+                        <div class="language-card korean">
+                            <span class="language-label">원문</span>
+                            <div class="sentence">
+                                Probably my co-worker and I will go to the site of 양양 at beginning of July.
+                            </div>
+                        </div>
+                        
+                        <div class="arrow-container">
+                            <div class="arrow">→</div>
+                        </div>
+                        
+                        <div class="language-card english">
+                            <span class="language-label">수정</span>
+                            <div class="sentence">
+                                My co-worker and I will probably go to the site in 양양 at the beginning of July.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-text">Probably my co-worker and I will go to the site of 양양 at beginning of July.</div>
+                            <span class="step-arrow">→</span>
+                            <div class="step-text">My co-worker and I will probably go to the site in 양양 at the beginning of July.</div>
+                        </div>
+                        <div class="step-note">'probably'의 위치와 'at the beginning' 표현을 수정했어요!</div>
+                    </div>
+
+                    <div class="explanation-section">
+                        <h2 class="section-title">현장 방문 표현하기</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. 부사 위치: "<span class="highlight">probably</span>"</h3>
+                            <p>
+                                'probably'의 올바른 위치:
+                            </p>
+                            <div class="language-comparison" style="margin-top: 20px;">
+                                <div class="language-card korean">
+                                    <span class="language-label">부자연스러움</span>
+                                    <div class="sentence">
+                                        Probably my co-worker and I will go...
+                                    </div>
+                                </div>
+                                    
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                    
+                                <div class="language-card english">
+                                    <span class="language-label">자연스러움</span>
+                                    <div class="sentence">
+                                        My co-worker and I will probably go...
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 시간 표현</h3>
+                            <p>
+                                월의 시기를 나타내는 정확한 표현:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">at the beginning of July → 7월 초에</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">in the middle of July → 7월 중순에</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">at the end of July → 7월 말에</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">3. 전치사 사용</h3>
+                            <p>
+                                장소와 함께 사용하는 전치사:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">in 양양 → 양양에서</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">to the site → 현장으로</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">현장 방문 관련 예문:</div>
+                                <div class="example-item">
+                                    We will <span class="key-phrase">probably</span> visit the site <span class="key-phrase">at the beginning of July</span>.
+                                    <br><span class="alternative">(우리는 아마 7월 초에 현장을 방문할 것이다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    The inspection will take place <span class="key-phrase">in the middle of</span> next month.
+                                    <br><span class="alternative">(검사는 다음 달 중순에 실시될 예정이다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    The project will be completed <span class="key-phrase">at the end of</span> this year.
+                                    <br><span class="alternative">(프로젝트는 올해 말에 완료될 예정이다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="/index.html" class="home-button">홈으로가기</a>
+        </footer>
+    </div>
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        // Check for saved theme preference or default to 'light'
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        body.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    </script>
+</body>
+</html>
